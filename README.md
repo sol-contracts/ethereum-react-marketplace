@@ -11,8 +11,9 @@ An Ethereum full Dapp using solidity and react.
 * To run this application :- *
 1. git clone https://github.com/sonukumar16/ethereum-react-marketplace.git
 2. npm install
-3. npm run start
-4. truffle test // to run unit test cases of smart contaracts.
+3. truffle test // to run unit test cases of smart contaracts.
+4. truffle migrate --reset // deploy smart contract to Blockchain.
+4. npm run start 
 
-* To deploy your code on live( kovan network) follow the deploymentSetup.txt file*
+* To deploy your code on live(kovan network) blockchain network follow the deploymentSetup.txt file*
 
