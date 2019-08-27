@@ -1,0 +1,8 @@
+truffle console ==>> for console of truffle.
+web3 ==>> check web3 instance
+accounts = await web3.eth.getAccouts() ==>> to check all counts of ganache
+blockNumber = await web3.eth.getBlockNumber) ==>> get current blockNumber
+marketplace = await Marketplace.deployed() ==> to get the deployed copy of smartcontract here Marketplace is the name of smart contract.
+marketplace.address ==>> address of smartcontract
+name = await marketplace.name(); =>> this is the varibale which is defined in the smartcontract
+

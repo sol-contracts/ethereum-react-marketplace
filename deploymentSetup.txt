@@ -1,0 +1,11 @@
+Steps:-
+1. Create an account in infura that provides ethereum node
+2. Import an account in meta-mask (like importing an account(Private key) from Ganache, you can import any account from meta-mask)
+3. Connect to any network (for example connecting to kovan network).
+4. Go to kovan faucet website and submit your account address,(do signup for it)
+5. Compile your smart contract code in remix ide with your compiler's version
+6. For Deployment - select the Environment ==>> Injected Web3 then deploy, for fast Deployment need to  increase the amount.
+7. Added an object of new network to  network field of contract's abi. In new object add contract Address and hash.
+8. You can check the networks by using ==>>> truffle networks command.
+9. Alright! go to check you smart contract ===>>> your smart contract.
+
